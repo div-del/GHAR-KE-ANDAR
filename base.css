@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --background: #efebe4; /* warm beige background */
+  --surface: #fdfaf5; /* dialogue box and card surface */
+  --primary: #c86b5d; /* Button red/pink */
+  --primary-foreground: #ffffff;
+  --secondary: #607b7e; /* teal text */
+  --secondary-foreground: #ffffff;
+  --muted: #f4efea; /* Box bg */
+  --muted-foreground: #7a7065;
+  --foreground: #4e443a; /* Dark text */
+  --accent: #dca35a; /* orangeish text */
+
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-heading: 'Lora', serif;
+
+  --spacing-2: 0.5rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
 .container {
   min-height: 100vh;
   min-height: 100dvh;

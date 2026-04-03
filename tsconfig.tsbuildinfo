@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/vite-env.d.ts","./pages/_index.pagelayout.tsx","./pages/_index.tsx","./pages/game.pagelayout.tsx","./pages/game.tsx","./helpers/house3dscene.tsx","./helpers/gamedata.tsx","./helpers/usegamestate.tsx","./components/badge.tsx","./components/button.tsx"],"version":"5.9.3"}

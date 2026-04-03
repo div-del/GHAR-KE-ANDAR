@@ -1,0 +1,86 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.primary {
+  background: var(--primary);
+  color: var(--primary-foreground);
+  box-shadow: 0 4px 14px rgba(200, 107, 93, 0.25);
+}
+
+.primary:hover {
+  box-shadow: 0 6px 20px rgba(200, 107, 93, 0.35);
+  background: #bb5f52;
+}
+
+.outline {
+  background: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.outline:hover {
+  background: rgba(200, 107, 93, 0.05);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--foreground);
+}
+
+.ghost:hover {
+  background: var(--muted);
+}
+
+.defaultSize {
+  min-height: 2.75rem;
+  padding: 0.8rem 1.1rem;
+}
+
+.largeSize {
+  min-height: 3.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+.iconSize {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.badgeSecondary {
+  background: var(--secondary);
+  color: white;
+}
+
+.badgeSuccess {
+  background: rgba(76, 175, 80, 0.18);
+  color: #1b5e20;
+}
